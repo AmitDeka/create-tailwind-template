@@ -1,0 +1,46 @@
+{
+    "name": "create-tailwind-template",
+    "version": "1.0.0",
+    "description": "Tailwindcss starter template with JIT mode enabled.",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodemon app.js",
+        "buildCSS": "postcss tailwind.css -o ./src/css/global.css -w --verbose",
+        "dev": "concurrently \"npm run test\" \"npm run buildCSS\"",
+        "build": "NODE_ENV=production postcss tailwind.css -o ./src/css/global.css",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AmitDeka/create-tailwind-template.git"
+    },
+    "keywords": [
+        "npm",
+        "tailwind-css",
+        "nodemon",
+        "ejs"
+    ],
+    "author": "Amit Deka",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AmitDeka/create-tailwind-template/issues"
+    },
+    "homepage": "https://github.com/AmitDeka/create-tailwind-template#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "concurrently": "^6.4.0",
+        "cssnano": "^5.0.12",
+        "eslint": "^8.3.0",
+        "eslint-config-prettier": "^8.3.0",
+        "nodemon": "^2.0.15",
+        "postcss": "^8.4.4",
+        "postcss-cli": "^9.0.2",
+        "prettier": "^2.5.0",
+        "tailwindcss": "^2.2.19"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
+    }
+}

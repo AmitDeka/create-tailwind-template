@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind CSS - <%- title %></title>
+
+        <link rel="stylesheet" href="/global.css" />
+    </head>
+    <body>
+        <%- include('./partials/header.ejs') %>
+
+        <section class="text-gray-600 body-font h-screen w-full bg-gray-50">
+            <div
+                class="container mx-auto flex flex-col px-5 sm:py-12 py-24 justify-center items-center"
+            >
+                <img
+                    class="lg:w-2/6 md:w-3/6 w-4/6 mb-10 object-cover object-center rounded"
+                    alt="hero"
+                    src="/static/undraw_blank_canvas.svg"
+                />
+                <div
+                    class="w-full md:w-2/3 flex flex-col my-8 items-center text-center"
+                >
+                    <h1
+                        class="title-font sm:text-6xl text-4xl my-8 font-medium text-green-500 uppercase"
+                    >
+                        Tailblocks.cc
+                    </h1>
+                    <p
+                        class="mb-8 sm:text-4xl text-2xl leading-relaxed capitalize"
+                    >
+                        This UI template is copied from
+                        <a
+                            href="https://tailblocks.cc/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-500 hover:text-green-500 font-bold tracking-wider uppercase"
+                            >Tailblocks</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <%- include('./partials/footer.ejs') %>
+    </body>
+</html>
