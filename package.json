@@ -1,6 +1,6 @@
 {
     "name": "create-tailwind-template",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A HTML and TailwindCSS starter template with JIT mode as a postcss plugin and EJS as a templating engine.",
     "main": "app.js",
     "bin": "./bin/cli.js",
