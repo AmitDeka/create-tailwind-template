@@ -1,6 +1,6 @@
 {
     "name": "create-tailwind-template",
-    "version": "1.1.1",
+    "version": "2.0.1",
     "description": "A HTML and TailwindCSS starter template with JIT mode as a postcss plugin and EJS as a templating engine.",
     "main": "app.js",
     "bin": "./bin/cli.js",
@@ -21,7 +21,7 @@
         "nodemon",
         "ejs"
     ],
-    "author": "Amit Deka",
+    "author": "",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/AmitDeka/create-tailwind-template/issues"
