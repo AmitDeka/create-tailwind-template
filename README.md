@@ -14,8 +14,7 @@ Create Tailwind Template works on Windows, Linux and macOS.
   npm start
 ```
 
-After typing the last command it will server the website in http://localhost:3000/ to see your app.
-When you’re ready to deploy to production, create a minified bundle with `npm run build`.
+After typing the last command it will server the website in http://localhost:5000/ to see your app.
 
 ## Create an website
 
@@ -41,26 +40,21 @@ npm init <initializer> is available in npm 6+
 
 # Screenshots
 
-#### Template made with EJS and TailwindCSS
+#### Template made with TailwindCSS and ExpressJS
 
-![Default Template](https://ik.imagekit.io/eh7avbardem/Tailwind_CSS_-_H_kmmQG2sNk.png?updatedAt=1638339338782)
+![Default Template](https://ik.imagekit.io/eh7avbardem/Tailwind_CSS_-_H_vs0N0b7V5p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670926794658)
 
 # Dependencies Used
 
 **Main Dependencies:**
 
--   [Dot](https://www.npmjs.com/package/dotenv)
--   [Express](https://www.npmjs.com/package/express)
--   [EJS](https://www.npmjs.com/package/ejs)
+- [Express](https://www.npmjs.com/package/express)
 
 **Developer Dependencies:**
 
--   [TailwindCSS](https://www.npmjs.com/package/tailwindcss)
--   [PostCSS](https://www.npmjs.com/package/postcss)
--   [cssnano](https://www.npmjs.com/package/cssnano)
--   [Concurrently](https://www.npmjs.com/package/concurrently)
--   [ESLint](https://www.npmjs.com/package/eslint)
--   [Prettier](https://www.npmjs.com/package/prettier)
+- [TailwindCSS](https://www.npmjs.com/package/tailwindcss)
+- [PostCSS](https://www.npmjs.com/package/postcss)
+- [Autoprefixer](https://www.npmjs.com/package/autoprefixer)
 
 ## Feedback
 
